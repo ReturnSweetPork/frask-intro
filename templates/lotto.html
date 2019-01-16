@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block body_block %}
+    <h1 class="mx-n15 py-n3">로또번호는 {{lotto_pick}}</h1>
+    <h4 class="border border-warning py-4 ml-3 rounded-pill">이건 어디로 갈까</h4>
+    <a href="index">홈으로</a>
+    <a href="" class="d-sm-none btn btn-danger">위험해</a>
+    <a href="" class="btn btn-danger">위험해!!!!</a>
+    <div class="bg-success m-3 position-absolute" style="width:100px;height:100px">
+    <div class="bg-warning m-3 position-relative" style="width:100px;height:100px"></div>    
+        
+        
+        
+    </div>
+    {% endblock %}
+    
+</body>
+</html>
